@@ -1,4 +1,4 @@
-// C++ program for implementation of FCFS
+//C++ program for implementation of FCFS
 #include<iostream>
 using namespace std;
 

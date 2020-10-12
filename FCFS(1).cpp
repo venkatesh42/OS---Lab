@@ -2,6 +2,7 @@
 #include<iostream>
 using namespace std;
 
+
 void findWaitingTime(int processes[], int n, int bt[],int wt[], int at[])
 {
 	int service_time[n];

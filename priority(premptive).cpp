@@ -1,3 +1,4 @@
+//c++ program for implementation of priority(premtive)
 #include<iostream>
 using namespace std;
 int main()

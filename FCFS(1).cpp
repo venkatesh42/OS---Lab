@@ -2,8 +2,7 @@
 #include<iostream>
 using namespace std;
 
-void findWaitingTime(int processes[], int n, int bt[],
-								int wt[], int at[])
+void findWaitingTime(int processes[], int n, int bt[],int wt[], int at[])
 {
 	int service_time[n];
 	service_time[0] = 0;
@@ -17,8 +16,7 @@ void findWaitingTime(int processes[], int n, int bt[],
 			wt[i] = 0;
 	}
 }
-void findTurnAroundTime(int processes[], int n, int bt[],
-									int wt[], int tat[])
+void findTurnAroundTime(int processes[], int n, int bt[],int wt[], int tat[])
 {
 	for (int i = 0; i < n ; i++)
 		tat[i] = bt[i] + wt[i];
